@@ -9,12 +9,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
-    "build": "cd ogbmain && npm run build",
-    "install-client": "cd ogbmain && npm install",
-    "heroku-postbuild": "npm run install-client && npm run build",
-    "ogbmain": "cd ogbmain && npm start",
-    "server": "concurrently \" npm run dev \" \"npm run ogbmain\""
+    "dev": "nodemon server.js"
   },
   "author": "Eze Ogbonnaya Okereke",
   "license": "MIT",
